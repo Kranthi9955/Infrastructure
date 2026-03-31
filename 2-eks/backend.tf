@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "quantamvector-infra-statefile-backup_k"
+    bucket         = "quantamvector-infra-statefile-backup-k"
     key            = "quantamvector/2-eks/terraform.tfstate"
     region         = "ap-northeast-1"
     dynamodb_table = "quantamvector-terraform-locks"
